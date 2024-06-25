@@ -1,15 +1,23 @@
-import React from "react";
-import { browserHistory  } from 'react-router'
-import{BrowserRouter, HashRouter,Route} from 'react-router-dom'
-import Nav from "./components/Nav";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Main from './components/Main.js';
+import Profile from './components/Profile.js';
+import {BrowserRouter,HashRouter, Route,Routes,Router} from 'react-router-dom';
+import { requireAuth } from './components/AuthService';
+import AllCities from './components/AllCities.js';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Nav/>
-    </BrowserRouter>
-   
-  );
+   <BrowserRouter>
+   <Routes>
+      <Route path="/cities" element={<AllCities />} />
+      <Route path="/profile" element={<Profile />} onEnter={requireAuth} />
+      <Route path="/" element={<Main />} />
+
+
+   </Routes>
+   </BrowserRouter>
+  )
 }
 
 export default App;

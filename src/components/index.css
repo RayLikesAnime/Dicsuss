@@ -1,0 +1,123 @@
+body {
+    background:  no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: black;
+  }
+  
+  .form-group {
+    text-align: center;
+    top: 40vh;
+  }
+  
+  .center-block {
+    text-align: center;
+    top: 40vh;
+    position: relative;
+  }
+  
+  .container1 {
+    margin: 0;
+  }
+  
+  .thumbDiv {
+    margin-left: 13vw;
+    padding: auto;
+  }
+  
+  .container-fluid {
+    margin: 0;
+  }
+  
+  .homeTitle {
+    text-align: center;
+    font-size: 48px;
+    margin: 0;
+    position: absolute;
+    top: 75px;
+    right: 50px;
+    left: 50px;
+    color: white;
+    text-shadow: 2px 2px 1px #203541;
+  }
+  
+  .img-responsive {
+    width: 50vw;
+    margin: auto;
+  }
+  
+  .col-md-6 {
+    text-align: center;
+    top: 40vh;
+    position: relative;
+  }
+  
+  
+  .cityName {
+    text-align: center;
+  }
+  .bg-lightgray {
+    position: relative;
+    height: 8vh;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+  }
+  
+  .cityPop {
+    text-align: center;
+  }
+  #ProfCont {
+    background-color: white;
+    display: inline-block!important;
+  }
+  
+  
+  .editComment {
+    margin-left: 30vw;
+  }
+  .thumbnail {
+      padding:0px;
+  }
+  .panel {
+      position:relative;
+    overflow:scroll;
+    text-indent: inherit;
+  }
+  .panel>.panel-heading:after,.panel>.panel-heading:before{
+      position:absolute;
+      top:11px;left:-16px;
+      right:100%;
+      width:0;
+      height:0;
+      display:block;
+      content:" ";
+      border-color:transparent;
+      border-style:solid solid outset;
+      pointer-events:none;
+  }
+  .panel>.panel-heading:after{
+      border-width:7px;
+      border-right-color:#f7f7f7;
+      margin-top:1px;
+      margin-left:2px;
+  }
+  .panel>.panel-heading:before{
+      border-right-color:#ddd;
+      border-width:8px;
+  }
+  .btn {
+    margin-top: 10px;
+  }
+  input[type=file]{
+      color:transparent;
+  }
+  #file{
+    padding: 20px;
+    top:0,auto;
+  }
